@@ -1,0 +1,20 @@
+{
+  "name": "todolist-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "test:e2e": "turbo run test:e2e",
+    "dev:api": "pnpm --filter @todolist/api run dev",
+    "dev:web": "pnpm --filter @todolist/web run dev",
+    "build:api": "pnpm --filter @todolist/api run build",
+    "build:web": "pnpm --filter @todolist/web run build"
+  },
+  "devDependencies": {
+    "turbo": "^2.3.0"
+  }
+}
