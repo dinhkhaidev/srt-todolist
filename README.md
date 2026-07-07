@@ -137,7 +137,7 @@ docker-compose up --build
 ```
 
 #### 2. Thông tin truy cập cổng kết nối
-- **Giao diện Web:** [http://localhost:80](http://localhost:8080)
+- **Giao diện Web:** [http://localhost:8080](http://localhost:8080)
 - **API Backend:** [http://localhost:3000](http://localhost:3000)
 - **Swagger API Docs:** [http://localhost:3000/api](http://localhost:3000/api)
 
